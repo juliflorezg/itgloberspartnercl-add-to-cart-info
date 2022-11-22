@@ -1,7 +1,7 @@
 {
   "vendor": "itgloberspartnercl",
   "name": "add-to-cart-info",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "title": "Add to cart info",
   "description": "This component will show additional info when you add a product to your shopping cart",
   "builders": {
@@ -13,7 +13,8 @@
   "dependencies": {
     "vtex.checkout-resources": "0.x",
     "vtex.order-manager": "0.x",
-    "vtex.product-context": "0.x"
+    "vtex.product-context": "0.x",
+    "vtex.minicart": "2.x"
   },
   "registries": [
     "smartcheckout"
